@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <head>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Kaushal Kumar | AI & Creative Developer">
+  <meta name="description" content="Portfolio showcasing my work in merging human creativity with AI capabilities. Explore projects in web development, AI, and design.">
+  <meta name="keywords" content="portfolio, web developer, AI, design, Kaushal Kumar, programmer">
+  <meta name="author" content="Kaushal Kumar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph / Facebook (Social Media Preview) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourportfolio.com/">
+  <meta property="og:title" content="Kaushal Kumar | AI & Creative Developer">
+  <meta property="og:description" content="Portfolio showcasing my work in merging human creativity with AI capabilities.">
+  <meta property="og:image" content="https://yourportfolio.com/preview-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://yourportfolio.com/">
+  <meta property="twitter:title" content="Kaushal Kumar | AI & Creative Developer">
+  <meta property="twitter:description" content="Portfolio showcasing my work in merging human creativity with AI capabilities.">
+  <meta property="twitter:image" content="https://yourportfolio.com/preview-image.jpg">
+</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Glassmorphism Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Glassmorphism Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-navbar">
+        <div class="container">
+            <!-- Logo with glow effect -->
+            <a class="navbar-brand glow-text" href="#">
+                <span class="logo-text">Portfolio</span>
+            </a>
+            
+            <!-- Mobile toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Desktop menu -->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" >Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+<section class="hero-section">
+    <!-- Background elements -->
+    <div class="hero-bg-elements">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="abstract-shape shape-1"></div>
+        <div class="abstract-shape shape-2"></div>
+        <div class="abstract-shape shape-3"></div>
+    </div>
+    
+    <!-- Hero content -->
+    <div class="container h-100" id="home">
+        <div class="row h-100 align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+                <!-- Name with neon glow -->
+                <h1 class="hero-name mb-3">KAUSHAL KUMAR</h1>
+                
+                <!-- Description -->
+                <p class="hero-description mb-4"><b>Merging human creativity with AI capabilities</b></p>
+                
+                <!-- Call-to-action buttons -->
+                <div class="d-flex justify-content-center gap-4 mb-5">
+                    <a href="#contact" class="btn btn-primary btn-glow">Hire Me</a>
+                    <a href="#portfolio" class="btn btn-outline-light btn-glow">View Portfolio</a>
+                </div>
+                
+                <!-- Social media icons -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kaushal-kumar-6b27a7261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/kaushal-kumarr" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/Kaushal_singh_o?s=09" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/kaushal__singhh/profilecard/?igsh=MXdxcGdwbDIxYm9kMA==" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Mobile Offcanvas Menu -->
+    <div class="offcanvas offcanvas-end glass-navbar" tabindex="-1" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title glow-text" id="navbarOffcanvasLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- About Me Section -->
+<section class="about-section" id="about">
+    <!-- Background elements -->
+    <div class="about-bg-elements">
+        <div class="glow-dot dot-1"></div>
+        <div class="glow-dot dot-2"></div>
+        <div class="glow-dot dot-3"></div>
+    </div>
+    
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="row align-items-center">
+            <!-- Profile Image Column -->
+            <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                <div class="profile-card glass-card">
+                    <div class="profile-img-wrapper">
+                        <img src="profile.JPG" alt="Profile Image" class="profile-img">
+                        <div class="profile-img-reflection"></div>
+                    </div>
+                    <div class="profile-shine"></div>
+                </div>
+            </div>
+            
+            <!-- About Content Column -->
+            <div class="col-lg-8">
+                <!-- About Text -->
+                <div class="about-text glass-card glow-border">
+                    <h3 class="about-subtitle">Who am I?</h3>
+                    <p>I'm Kaushal Kumar, a final year BCA student at Swami Vivekanand Subharti University, Meerut. I want to be completely transparent - this portfolio website was created entirely using AI tools as I'm just beginning my journey in technology.</p>
+                        <p><strong>My Current Reality:</strong>
+                            <ul>
+                                <li>📚 Studying Computer Applications (BCA)</li>
+                                <li>🤖 Used AI to build this entire website</li>
+                                <li>👨‍💻 Learning the basics of programming</li>
+                                <li>🔍 Exploring different tech career paths</li>
+                            </ul>
+                            </p>    
+                            
+                            <p><strong>My Future Goals:</strong>
+                            <ul>
+                                <li>📊 Transition into data analytics/engineering field</li>
+                                <li>📈 Learn Python, SQL, and data visualization</li>
+                                <li>🛠️ Eventually build projects without AI assistance</li>
+                            </ul>
+                            </p>
+                            <p>This website represents my first step in tech - acknowledging where I am today while working toward where I want to be tomorrow. I'm excited to grow beyond AI-assisted development as I gain real skills.</p>
+                </div>
+                
+                <!-- Info Cards -->
+                <div class="row mt-4">
+                    <div class="col-md-6 mb-4">
+                        <div class="info-card glass-card">
+                            <div class="info-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4 class="info-title">Name</h4>
+                                <p class="info-text">Kaushal Kumar</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="info-card glass-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4 class="info-title">Email</h4>
+                                <p class="info-text">kaushalsinghbth@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="info-card glass-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4 class="info-title">Location</h4>
+                                <p class="info-text">Meerut</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="info-card glass-card">
+                            <div class="info-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4 class="info-title">Freelance</h4>
+                                <p class="info-text">Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills-section" id="skills">
+    <!-- Background elements -->
+    <div class="skills-bg-elements">
+        <div class="skills-particle"></div>
+        <div class="skills-particle"></div>
+        <div class="skills-particle"></div>
+        <div class="skills-particle"></div>
+    </div>
+    
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">My <span class="text-gradient">Skills</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <!-- Skills Categories -->
+        <div class="row">
+            <!-- Frontend Technologies -->
+            <div class="col-lg-6 mb-5">
+                <div class="skills-category glass-card">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-code category-icon"></i> Frontend Technologies
+                    </h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML (Manual + AI)</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-progress glass-progress">
+                                <div class="skill-progress-bar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS (Manual + AI)</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-progress glass-progress">
+                                <div class="skill-progress-bar" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript (Only Using AI)</span>
+                                <span class="skill-percent">25%</span>
+                            </div>
+                            <div class="skill-progress glass-progress">
+                                <div class="skill-progress-bar" data-width="25"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Python -->
+            <div class="col-lg-6 mb-5">
+                <div class="skills-category glass-card">
+                    <h3 class="skills-category-title">
+                        <i class="fab fa-python category-icon"></i> Python
+                    </h3>
+                    <div class="circular-progress-container">
+                        <div class="circular-progress" data-percent="88">
+                            <div class="progress-circle">
+                                <svg class="progress-circle-svg">
+                                    <circle class="progress-circle-bg"/>
+                                    <circle class="progress-circle-fill"/>
+                                </svg>
+                                <div class="progress-text">
+                                    <span class="progress-percent">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-details">
+                            <p>Learning Python to make mark in data field.</p>
+                            <ul>
+                                <li>Build CLI contact Book</li>
+                                <li>connecting Python to Sqlite3</li>
+                                <li>Learning (Pandas, NumPy)</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- C/C++ (OOP) -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="skills-category glass-card">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-cogs category-icon"></i> C/C++ (OOP)
+                    </h3>
+                    <div class="circular-progress-container">
+                        <div class="circular-progress" data-percent="82">
+                            <div class="progress-circle">
+                                <svg class="progress-circle-svg">
+                                    <circle class="progress-circle-bg"/>
+                                    <circle class="progress-circle-fill"/>
+                                </svg>
+                                <div class="progress-text">
+                                    <span class="progress-percent">68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-details">
+                            <p>Moderate object-oriented programming skills:</p>
+                            <ul>
+                                <li>Build CLI contact Book</li>
+                                <li>Memory management</li>
+                                <li>System programming</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Database & Tools -->
+            <div class="col-lg-6">
+                <div class="skills-category glass-card">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-database category-icon"></i> Database & Tools
+                    </h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percent">60%</span>
+                            </div>
+                            <div class="skill-progress glass-progress">
+                                <div class="skill-progress-bar" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Excel</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-progress glass-progress">
+                                <div class="skill-progress-bar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-percent">40%</span>
+                            </div>
+                            <div class="skill-progress glass-progress">
+                                <div class="skill-progress-bar" data-width="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="education-section" id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="education-container">
+        <!-- Matriculation Card -->
+        <div class="education-card">
+            <div class="card-icon">🎓</div>
+            <h3 class="card-title">Matriculation</h3>
+            <div class="card-details">
+                <p><strong>School Name:</strong> NotreDame Public School</p>
+                <p><strong>Address:</strong> Bettiah, Bihar</p>
+                <p><strong>Marks:</strong> 434/500</p>
+            </div>
+        </div>
+        
+        <!-- Intermediate Card -->
+        <div class="education-card">
+            <div class="card-icon">🏫</div>
+            <h3 class="card-title">Intermediate</h3>
+            <div class="card-details">
+                <p><strong>School Name:</strong> MJK College Bettiah</p>
+                <p><strong>Address:</strong> Bettiah, Bihar</p>
+                <p><strong>Marks:</strong> 424/500</p>
+            </div>
+        </div>
+        
+        <!-- Certification Course Card -->
+        <div class="education-card">
+            <div class="card-icon">📜</div>
+            <h3 class="card-title">Additional Certification Course</h3>
+            <div class="card-details">
+                <p><strong>Course:</strong> ADCA (Advanced Diploma in Computer Applications)</p>
+                <p><strong>Institute:</strong> IICT Computer technology</p>
+                <p><strong>Address:</strong> Bettiah, Bihar</p>
+                <p><strong>Grade:</strong> A</p>
+            </div>
+        </div>
+        
+        <!-- Training Certificate Card -->
+        <div class="education-card">
+            <div class="card-icon">🏅</div>
+            <h3 class="card-title">Training Certificate</h3>
+            <div class="card-details">
+                <p><strong>Program:</strong> KYP (Kushal Yuva Program)</p>
+                <p><strong>Organized by:</strong> Bihar Government</p>
+                <p><strong>Duration:</strong> 3 Months</p>
+            </div>
+        </div>
+        <div class="education-card">
+    <div class="card-icon">🎓</div>
+    <h3 class="card-title">Bachelor of Computer Applications (BCA)</h3>
+    <div class="card-details">
+        <p><strong>University:</strong> Swami Vivekanand Subharti University</p>
+        <p><strong>Address:</strong> Meerut, UP</p>
+        <p><strong>Status:</strong> Currently Pursuing (Expected 2026)</p>
+        <p><strong>Current Semester:</strong> Vth </p>
+    </div>
+</div>
+    </div>
+</section>
+<body>
+    <div class="contact-form-container" id="contact">
+  <!-- Single form element with Netlify attributes -->
+  <form class="glass-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <!-- Hidden Netlify fields -->
+    <input type="hidden" name="form-name" value="contact">
+    <p class="hidden">
+      <label>Don't fill this out: <input name="bot-field"></label>
+    </p>
+
+    <h2 class="form-title">Get in Touch</h2>
+    
+    <!-- Name Field -->
+    <div class="form-group">
+      <input type="text" id="name" name="name" required>
+      <label for="name">Your Name</label>
+      <span class="focus-border"></span>
+    </div>
+    
+    <!-- Email Field -->
+    <div class="form-group">
+      <input type="email" id="email" name="email" required>
+      <label for="email">Email Address</label>
+      <span class="focus-border"></span>
+    </div>
+    
+    <!-- Message Field -->
+    <div class="form-group">
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <label for="message">Your Message</label>
+      <span class="focus-border"></span>
+    </div>
+    
+    <!-- Submit Button -->
+    <button type="submit" class="submit-btn">
+      <span>Send Message</span>
+      <div class="btn-glow"></div>
+    </button>
+  </form>
+  
+  <!-- Response container (outside the form) -->
+  <div id="formResponse" class="mt-3"></div>
+</div>
+
+    <!-- Glassmorphism Footer -->
+<footer class="glass-footer">
+  <div class="container">
+    <div class="row footer-content">
+      <!-- Column 1: Logo & Bio -->
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="footer-brand">
+          <p class="footer-bio mt-3">Today: Building websites with AI help<br>
+                Tomorrow: Building data solutions with Python<br>
+                Always: Curious and learning</p>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#skills" class="footer-link">Skills</a></li>
+          <li><a href="#education" class="footer-link">Education</a></li>
+          <li><a href="#projects" class="footer-link">Projects</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact Info -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="footer-heading">Contact</h5>
+        <ul class="footer-contact">
+          <li><i class="fas fa-envelope"></i> kaushalsinghbth@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +9128204316</li>
+          <li class="social-icons">
+            <a href="https://github.com/kaushal-kumarr" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kaushal-kumar-6b27a7261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/Kaushal_singh_o?s=09" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/kaushal__singhh/profilecard/?igsh=MXdxcGdwbDIxYm9kMA==" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright & Back to Top -->
+    <div class="footer-bottom">
+      <div class="copyright">
+        &copy; <span id="year">2025</span> Your Name. All Rights Reserved.
+      </div>
+      <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+        <span class="btn-glow"></span>
+      </button>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+    <!-- Bootstrap JS Bundle with Popper -->
+     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
